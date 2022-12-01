@@ -10,7 +10,7 @@ We adopt the ViT-Base/16 as the backbone. We also apply our proposed method on C
 | #SYSU-MM01 | ViT | ~ 67.53% | ~ 64.98% | ~51.86% |[GoogleDrive](https://drive.google.com/file/d/1PjQ9-WEq09ycgQLpSmRa6tYffZ4fdAhQ/view?usp=share_link)|
 |#SYSU-MM01  | AGW* | ~ 67.09% | ~ 64.25% | ~50.89% | [GoogleDrive](https://drive.google.com/file/d/1PjQ9-WEq09ycgQLpSmRa6tYffZ4fdAhQ/view?usp=share_link)|
 
-**Both of these two datasets may have some fluctuation due to random spliting. AGW** means AGW method with random erasing.  The results might be better by finetuning the hyper-parameters. 
+**\*Both of these two datasets may have some fluctuation due to random spliting. AGW\* means AGW method with random erasing.  The results might be better by finetuning the hyper-parameters.**
 
 ### 1. Datasets.
 
