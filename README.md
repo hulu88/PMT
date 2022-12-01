@@ -4,7 +4,7 @@ Pytorch code for paper "**Learning Progressive Modality-shared Transformers for 
 **Person Re-identifification**".
 
 ### 1. Results.
-We adopt the ViT-Base/16 as the backbone. We also apply our proposed method on CNN-based backbone AGW [3].
+We adopt the Transformer-based ViT-Base/16 and CNN-based AGW [3] as backbone respectively.
 
 |Datasets    | Backbone | Rank@1  | mAP |  mINP |  Model|
 | --------   | -----    | -----  |  -----  | ----- |:----:|
