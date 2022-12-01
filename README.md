@@ -3,6 +3,7 @@ Pytorch code for paper "**Learning Progressive Modality-shared Transformers for 
 
 **Person Re-identifification**".
 
+### 1. Results.
 We adopt the ViT-Base/16 as the backbone. We also apply our proposed method on CNN-based backbone AGW [3].
 
 |Datasets    | Backbone | Rank@1  | mAP |  mINP |  Model|
@@ -12,7 +13,7 @@ We adopt the ViT-Base/16 as the backbone. We also apply our proposed method on C
 
 **\*Both of these two datasets may have some fluctuation due to random spliting. AGW\* means AGW uses random erasing.  The results might be better by finetuning the hyper-parameters.**
 
-### 1. Datasets.
+### 2. Datasets.
 
 - (1) RegDB [1]: The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html).
 
@@ -20,7 +21,7 @@ We adopt the ViT-Base/16 as the backbone. We also apply our proposed method on C
 
    
 
-### 2. Citation
+### 3. Citation
 
 Most of the code of our backbone are borrowed from [TransReID](https://github.com/damo-cv/TransReID) [4] and [AGW](https://github.com/mangye16/Cross-Modal-Re-ID-baseline) [3]. 
 
@@ -49,7 +50,7 @@ Please cite the following paper in your publications if it is helpful:
 }
 ```
 
-###  3. References.
+###  4. References.
 
 [1] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
 
