@@ -103,7 +103,7 @@ Please cite the following paper in your publications if it is helpful:
 }
 ```
 
-###  4. References.
+###  7. References.
 
 [1] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
 
