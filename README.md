@@ -21,8 +21,6 @@ We adopt the Transformer-based ViT-Base/16 and CNN-based AGW [3] as backbone res
 
 ### 3. Requirements
 
-------
-
 #### **Prepare Pre-trained Model**
 
 - You need to download the ImageNet pretrained transformer model [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth).
@@ -50,13 +48,12 @@ python train.py --config_file config/SYSU.yml
 python test.py --dataset 'sysu' --mode 'all' --resume 'model_path' --gall_mode 'single' --gpu 0
 ```
   - `--dataset`: which dataset "sysu" or "regdb".
-  
   - `--mode`: "all" or "indoor"  (only for sysu dataset).
-  
   - `--gall_mode`: "single" or "multi" (only for sysu dataset).
-  
   - `--resume`: the saved model path.
   - `--gpu`: which gpu to use.
+
+
 
 **Test a model on RegDB dataset by**
 
@@ -115,4 +112,3 @@ Please cite the following paper in your publications if it is helpful:
 [3] Ye M, Shen J, Lin G, et al. Deep learning for person re-identification: A survey and outlook[J]. IEEE transactions on pattern analysis and machine intelligence, 2021, 44(6): 2872-2893.
 
 [4] He S, Luo H, Wang P, et al. Transreid: Transformer-based object re-identification[C]//Proceedings of the IEEE/CVF international conference on computer vision. 2021: 15013-15022.
-
