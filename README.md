@@ -23,13 +23,12 @@ We adopt the Transformer-based ViT-Base/16 and CNN-based AGW [3] as backbone res
 
 #### **Prepare Pre-trained Model**
 
-- You need to download the ImageNet pretrained transformer model [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth).
+- You may need to download the ImageNet pretrained transformer model [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth).
 
 #### Prepare Training Data
-
+- You need to define the data path and pre-trained model path in `config.py`.
 - You need to run `python process_sysu.py` to pepare the dataset, the training data will be stored in ".npy" format.
 
-- You may need mannully define the data path and pre-trained model path in `config.py`.
 
 ### 4. Training
 
