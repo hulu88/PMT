@@ -30,6 +30,13 @@ Thanks a lot for the author's contribution.
 Please cite the following paper in your publications if it is helpful:
 
 ```
+@article{lu2022learning,
+  title={Learning Progressive Modality-shared Transformers for Effective Visible-Infrared Person Re-identification},
+  author={Lu, Hu and Zou, Xuezhang and Zhang, Pingping},
+  journal={arXiv preprint arXiv:2212.00226},
+  year={2022}
+}
+
 @inproceedings{he2021transreid,
   title={Transreid: Transformer-based object re-identification},
   author={He, Shuting and Luo, Hao and Wang, Pichao and Wang, Fan and Li, Hao and Jiang, Wei},
