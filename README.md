@@ -60,7 +60,7 @@ python test.py --dataset 'sysu' --mode 'all' --resume 'model_path' --gall_mode '
 python test.py --dataset 'regdb' --resume 'model_path' --trial 1 --tvsearch True --gpu 0
 ```
 
-  - `--trial`: testing trial which should match the training model  (only for regdb dataset).
+  - `--trial`: testing trial should match the trained model  (only for regdb dataset).
 
   - `--tvsearch`:  whether thermal to visible search  True or False (only for regdb dataset).
 
