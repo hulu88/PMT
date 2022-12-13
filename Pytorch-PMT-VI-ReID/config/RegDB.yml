@@ -1,0 +1,16 @@
+DATASET: 'regdb'
+
+START_EPOCH: 1
+MAX_EPOCH: 36
+BATCH_SIZE: 32
+NUM_POS: 4
+
+# PMT
+METHOD: 'PMT'  # 'PMT' or 'base'
+PL_EPOCH: 6
+MSEL: 0.5
+DCL: 0.5
+MARGIN: 0.1
+
+
+
