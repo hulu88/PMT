@@ -9,7 +9,7 @@ We adopt the Transformer-based ViT-Base/16 and CNN-based AGW [3] as backbone res
 |Datasets    | Backbone | Rank@1  | mAP |  mINP |  Model|
 | --------   | -----    | -----  |  -----  | ----- |:----:|
 | #SYSU-MM01 | ViT | ~ 67.53% | ~ 64.98% | ~51.86% |[GoogleDrive](https://drive.google.com/file/d/1S7Upn_8dWHNN5R3woazpocFU6J8hvCIe/view?usp=share_link)|
-|#SYSU-MM01  | AGW* | ~ 67.09% | ~ 64.25% | ~50.89% | [GoogleDrive](https://drive.google.com/file/d/1PjQ9-WEq09ycgQLpSmRa6tYffZ4fdAhQ/view?usp=share_link)|
+|#SYSU-MM01  | AGW* | ~ 67.09% | ~ 64.25% | ~50.89% | [GoogleDrive](https://drive.google.com/file/d/1FOvspAdWEtqebAoqt48-bFxq5ebKnUrG/view?usp=share_link)|
 
 **\*Both of these two models may have some fluctuation due to random spliting. AGW\* means AGW uses random erasing.  The results might be better by finetuning the hyper-parameters.**
 
